@@ -1,0 +1,373 @@
+* {
+	font-family: "Arial";
+}
+#about > ul > li {
+	font-family: "Carlito";
+	margin-top: 26px;
+	margin-bottom: 26px;
+	font-weight: bold;
+	letter-spacing: 1.7px;
+}
+#about > ul > h3 {
+	font-family: "Carlito";
+	margin-top: -68px;
+	font-size: 24px;
+	width: 190px;
+}
+#about > ul > img {
+	padding: 35px 0 0 0;
+}
+body > header > #wrapper {
+	width: 680px;
+	margin: -155px -340px;
+}
+body > header > #wrapper > h1 {
+	font-family: "PT Sans";
+	margin: 10px 0 0 0;
+    font-weight: bold;
+    letter-spacing: 6px;
+    line-height: 80px;
+}
+section > #wrapper > header > h1 {
+	font-size: 47px;
+}
+body > header > #wrapper > h1:first-of-type {
+    opacity: 0;
+    margin: 200px auto 0 auto;
+    padding: -100px 0 0 0;
+    width: 405px;
+    border-bottom: 2px solid white;
+}
+section > #wrapper > article > h3 {
+	font-family: "Exo2-MediumCondensed.otf";
+	font-weight: bold;
+	font-size: 33px;
+}
+nav > div > ul > li {
+	font-family: "PT Sans";
+	font-size: 14.5px;
+}
+section > #wrapper.langs > header > h1 {
+	width: 180px;
+}
+section:nth-of-type(2) {
+	padding: 80px 0;
+	background: #ECECEC;
+}
+section > #wrapper > article > p {
+    font-family: "Carlito";
+    font-size: 16px;
+	letter-spacing: 0.3px;
+    line-height: 27px;
+    color: #646464;
+}
+section > #wrapper > #wrapper {
+	width: 786px;
+	text-align: center;
+}
+section > #wrapper > #wrapper > article:nth-of-type(1) {
+	padding: 20px 30px 0 30px;
+}
+section > #wrapper > #wrapper > article:nth-of-type(2) {
+	padding: 20px 35px 0 45px;
+}
+section > #wrapper > #wrapper > article {
+	padding: 45px 30px;
+	width: 322px;
+	height: 350px;
+	text-align: left;
+}
+section > #wrapper.langs > #wrapper > article > img {
+	float: right;
+	width: 35px;
+	margin: 5px 0 0 0;
+}
+section > #wrapper.langs > #wrapper > article > div {
+	font-family: "Montserrat-Regular";
+	padding: 4px 0;
+	width: 270px;
+	color: #646464;
+	font-weight: 400;
+	border: 2px solid #94776C;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 10px 0 20px 0;
+	text-align: center;
+}
+section > #wrapper > header > h1 {
+	font-family: "Carlito";
+	font-weight: bold;
+	width: 260px;
+}
+section:nth-of-type(3) > #wrapper > header > h1 {
+	width: 360px;
+}
+section > #wrapper > header > p {
+	font-family: "Carlito";
+    font-size: 18px;
+	letter-spacing: 0.4px;
+    line-height: 27px;
+    color: #646464;
+}
+section > #wrapper > #wrapper > article > p {
+    font-family: "Carlito";
+    font-size: 16px;
+	letter-spacing: 0.3px;
+    line-height: 27px;
+    color: #646464;
+}
+section > #wrapper.langs > #wrapper > article {
+	float: left;
+}
+footer > #wrapper > div {
+	font-family: "expresswayrg";
+	font-weight: bold;
+}
+footer > #wrapper > a {
+	font-family: "expresswayrg";
+	font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+	#wrapper {
+		width: 900px;
+	}
+}
+@media screen and (max-width: 1050px) {
+	#wrapper {
+		width: 700px;
+	}
+	section > #wrapper > header > h1 {
+		left: -40px;
+	}
+	section > #wrapper > header > p {
+		width: 680px;
+	}
+	section > #wrapper.langs > #wrapper > article {
+		width: 620px;
+		height: 180px;
+	}
+	section > #wrapper.langs > #wrapper > article:nth-of-type(2) {
+    	padding: 20px 30px 0 30px;
+	}
+	footer > .scrollTop {
+		
+	}
+}
+@media screen and (max-width: 830px) {
+	nav > #wrapper {
+		width: 600px;
+	}
+	#wrapper {
+		width: 550px;
+	}
+	section > #wrapper > article {
+		width: 100%;
+	}
+	section > #wrapper > article > p {
+		margin: 0 auto;
+		width: 500px;
+	}
+	section > #wrapper > header > h1 {
+		left: -120px;
+	}
+	section > #wrapper > header > p {
+		width: 550px;
+	}
+	section > #wrapper.langs > #wrapper > .bg:nth-of-type(1) {
+		width: 490px;
+		height: 240px;
+	}
+	section > #wrapper.langs > #wrapper > .bg:nth-of-type(2) {
+		width: 490px;
+		height: 250px;
+	}
+	section > #wrapper.langs > #wrapper > .bg:nth-of-type(3) {
+		width: 490px;
+		height: 250px;
+	}
+	section > #wrapper.langs > #wrapper > .bg:nth-of-type(4) {
+		width: 490px;
+		height: 250px;
+	}
+	section > #wrapper.langs > #wrapper > .bg:nth-of-type(5) {
+		width: 490px;
+		height: 220px;
+	}
+	section > #wrapper.langs > #wrapper > .bg:nth-of-type(6) {
+		width: 490px;
+		height: 200px;
+	}
+}
+@media screen and (max-device-width: 414px) {
+	body {
+		width: 1014px;
+	}
+	body > header {
+		height: 104vh; 
+	}
+	body > header > #wrapper {
+	    width: 780px;
+	    margin: -155px -390px;
+	}
+	body > header > #wrapper > h1:first-of-type {
+	    opacity: 0;
+	    margin: 200px auto 20px auto;
+	    padding: 0 0 10px 0;
+	    width: 516px;
+	    border-bottom: 2px solid white;
+	}
+	nav > div > ul > li {
+		font-family: "PT Sans";
+	    display: inline-block;
+	    margin: 20px 0;
+	    padding: 10px 0;
+	    width: 100%;
+	    font-size: 38px;
+	    font-weight: 700;
+	    letter-spacing: 7px;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    color: #424242;
+	    transition: all 0.6s ease;
+	    border-radius: 2px;
+	    cursor: pointer;
+	}
+	section > #wrapper > header > h1 {
+		font-family: "Exo2-MediumCondensed.otf";
+	    position: relative;
+	    left: -40px;
+	    right: 0;
+	    top: -150px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 300px;
+	    background: white;
+	    color: #424242;
+	    letter-spacing: 6px;
+	    font-size: 50px;
+	    text-transform: uppercase;
+	    font-weight: 400;
+	}
+	section > #wrapper > header > p {
+		font-size: 29px;
+	    letter-spacing: 2px;
+	    line-height: 50px;
+	    color: #646464;
+	}
+	section > #wrapper > article > h3 {
+		font-family: "Carlito";
+	    margin: 20px 0 40px 0;
+	    color: #646464;
+	    font-size: 42px;
+	    letter-spacing: 3px;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	}
+	section > #wrapper > article > p {
+	    color: #646464;
+	    letter-spacing: 1px;
+	    font-size: 34px;
+	    line-height: 50px;
+	}
+	section:nth-of-type(2) > #wrapper.langs > header > h1 {
+	    width: 230px;
+	}
+	section > #wrapper.langs > header > h1 {
+	    width: 400px;
+	    background: #ECECEC;
+	}
+	section > #wrapper.langs > #wrapper > article {
+	    padding: 20px 30px 0 50px;
+	}
+	section > #wrapper.langs > #wrapper > article:nth-of-type(1) {
+	    width: 620px;
+	    height: 530px;
+	}
+	section > #wrapper.langs > #wrapper > article:nth-of-type(2) {
+	    width: 620px;
+	    height: 610px;
+	}
+	section > #wrapper.langs > #wrapper > article:nth-of-type(3) {
+		padding: 20px 30px 0 50px;
+	    width: 620px;
+	    height: 660px;
+	}
+	section > #wrapper.langs > #wrapper > article:nth-of-type(4) {
+	    width: 620px;
+	    height: 610px;
+	}
+	section > #wrapper.langs > #wrapper > article:nth-of-type(5) {
+	    width: 620px;
+	    height: 520px;
+	}
+	section > #wrapper.langs > #wrapper > article:nth-of-type(6) {
+	    width: 620px;
+	    height: 480px;
+	}
+	section > #wrapper.langs > #wrapper > article > div {
+	    font-family: "Montserrat-Regular";
+	    padding: 7px 0;
+	    width: 535px;
+	    color: #646464;
+	    font-weight: 400;
+	    border: 2px solid #94776C;
+	    font-size: 35px;
+	    text-transform: uppercase;
+	    letter-spacing: 5px;
+	    margin: 10px 0 20px 0;
+	    text-align: center;
+	}
+	section > #wrapper.langs > #wrapper > article > img {
+	    float: right;
+	    width: 64px;
+	    margin: 5px 0 0 0;
+	}
+	section > #wrapper > #wrapper > article > p {
+	    /* font-family: "Carlito"; */
+	    font-size: 34px;
+	    letter-spacing: 0.7px;
+	    line-height: 45px;
+	    color: #646464;
+	    text-align: center;
+	}
+	footer > #wrapper > a {
+	    font-family: "Montserrat-Regular";
+	    margin: 0 7px;
+	    padding: 10px 20px;
+	    font-size: 13px;
+	    font-weight: 700;
+	    letter-spacing: 4px;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    color: #424242;
+	    transition: all 0.6s ease;
+	    border-radius: 2px;
+	    text-decoration: none;
+	    cursor: pointer;
+	}
+	footer > #wrapper > a {
+		font-family: "PT Sans";
+		letter-spacing: 2px;
+	}
+	footer > #wrapper > a > i {
+	    margin: -11px 15px 0 0;
+	    font-size: 22px;
+	}
+	body > .fa.fa-angle-double-up {
+		padding: 5px 23px;
+	    font-size: 76px;
+	}
+	#about > ul > img {
+	    padding: 60px 0 0 0;
+	    width: 151px;
+	}
+	#about > ul > h3 {
+	    margin-top: -120px;
+	    font-size: 40px;
+	    width: 300px;
+	}
+	#about > ul > li {
+	    margin-bottom: 40px;
+	}
+}
